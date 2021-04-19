@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -16,26 +17,57 @@
         </li>
     </ul>
 
-    <h1>Sobre o Felipe</h1>
+    <h1 class="center">Sobre o Felipe</h1>
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit maxime aspernatur odit unde fugiat labore facilis eos, ad ipsum! Ad voluptatem facere fugit quo explicabo nostrum beatae amet eaque neque.
-    </p>
+    <div class="container p-30">
+        <div>
+            <img class="br-50 wh-300 p-30" src="assets/img/obiwan.jpeg" alt="Minha Foto">
+        </div>
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quia id ex libero doloremque unde. Iure dolor cum delectus et provident, sint minima facilis ut odit nulla ipsa saepe enim. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia reprehenderit dolorum, omnis aliquam illo porro ex veniam animi! Iste beatae atque hic architecto magni debitis repellat neque sint itaque quisquam.
-    </p>
+        <div>
+            <p class="justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit maxime aspernatur odit unde fugiat labore facilis eos, ad ipsum! Ad voluptatem facere fugit quo explicabo nostrum beatae amet eaque neque.
+            </p>
+        
+            <p class="justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quia id ex libero doloremque unde. Iure dolor cum delectus et provident, sint minima facilis ut odit nulla ipsa saepe enim. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia reprehenderit dolorum, omnis aliquam illo porro ex veniam animi! Iste beatae atque hic architecto magni debitis repellat neque sint itaque quisquam.
+            </p>
+        </div>
+    </div>
+    
+    <h2 class="center">Meu video predileto</h2>
+    <div class="container">
+        <iframe width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/roqk1aaF3eE" 
+        title="YouTube video player" 
+        frameborder="5" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+    </div>
+    <hr>
+    <footer>
 
-    <img src="assets/img/obiwan.jpeg" alt="Minha Foto">
+        <div class="container">
+            <a href="https://pt-br.facebook.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do Facebook">
+            </a>
+           
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+            </a>
 
-    <h2>Meu video predileto</h2>
-
-    <iframe width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/roqk1aaF3eE" 
-    title="YouTube video player" 
-    frameborder="5" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen></iframe>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+           
+           
+        </div>
+        <p class="center">
+            Todos os direitos reservados para Felipe Lauton &copy
+        </p>
+        
+    </footer>
+   
 </body>
 </html>
